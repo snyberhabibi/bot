@@ -15,3 +15,9 @@ TOKENS = [
     {"name": "TokenA", "market_address": "market-address-1"},
     {"name": "TokenB", "market_address": "market-address-2"},
 ]
+
+# Logging Configuration
+LOGGING_CONFIG = {
+    "log_level": "INFO",  # Options: DEBUG, INFO, WARNING, ERROR
+    "log_file": "bot.log",  # Log output file
+}
